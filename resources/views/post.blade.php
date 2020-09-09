@@ -34,6 +34,18 @@
                                     @endforeach
                                 </select>
                             </div>
+
+                            {{-- <div class="">
+                                <label><strong>Select Category :</strong></label><br/>
+                                <select class="js-example-basic-multiple-limit form-control" name="cat_id[]" multiple="multiple">
+                                    <option value="">PHP</option>
+                                    <option value="">CI</option>
+                                    <option value="">Lara</option>
+                                    <option value="">as</option>
+                                    <option value="">po</option>
+                                    <option value="">eyey</option>
+                                </select>
+                            </div> --}}
                               
                             <div class="text-center" style="margin-top: 10px;">
                                 <button type="submit" class="btn btn-success">Save</button>

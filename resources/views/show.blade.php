@@ -20,8 +20,10 @@
     @endforeach
     
     <select name="" class="form-control" id="">
-        @foreach ($int_post as $name)
-    <option value="">{{ $name }}</option>
+        @foreach ($explode_id_ as $cat_id)
+            @if ($cat_id != 0)
+            <option value="{{ $cat_id }}">{{ $cat_id }}</option>
+            @endif
         @endforeach
     </select>
     {{-- <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
